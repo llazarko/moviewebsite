@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="img/logo-freecine.png" type="image/FreeCine">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Movie Title - Your Site Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+        
+        .movie-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .movie-player {
+            width: 100%;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            outline: none;
+        }
+        .movie-info {
+            margin-top: 20px;
+        }
+        .movie-title {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .movie-meta {
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+        .settings-menu {
+            margin-top: 15px;
+            background: #222;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+        .settings-btn {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+        .btn{
+            color: #D3AF37;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+         <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-freecine.png" alt="BestWatch" width="46" height="48">
+      </a>
+          <a href="index.html"><button class="btn"><i class="fa fa-home"></i></button></a>
+    </div>
+  </nav><br><br><br><br>
+    </header>
+
+    
+    <div class="movie-container">
+        <!-- Video Player -->
+        <div class="movie-player">
+            <video autoplay muted loop playsinline id="movieVideo" controls poster="MOVIE BANNER HERE" style="max-height: 500px;">
+                <source src="movie/COMING_SOON TEMPLATE.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Movie Info -->
+        <div class="movie-info">
+            <h1 class="movie-title">Coming Soon</h1>
+            <div class="movie-meta">
+                <span>** **</span> | 
+                <span>*h *m</span> | 
+                <span>Category, Type</span>
+            </div>
+            <p>Description Here</p>
+        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

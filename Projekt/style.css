@@ -1,0 +1,134 @@
+.about-section {
+  background-color: #0a0a0a;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.about-card {
+  background: rgba(20, 20, 20, 0.8);
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+
+.stat-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.card1{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 225px !important;
+    height: 395px;
+}
+
+.card-img{
+    height: 300px;
+}
+
+.card-title{
+    position: relative;
+    right: 15px;
+    margin: 0;
+}
+
+.movie-watch-btn {
+  position: relative;
+  right: 15px;
+  height: 28px;
+  font-size: 10px;
+  padding: 5px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+h6{
+    background-color: rgba(128, 128, 128, 0.104);
+    max-width: 1255px;
+    margin: 60px;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer{
+    align-items: baseline;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+
+    padding: 20px;
+}
+
+#genres ul{
+    list-style: none;
+}
+
+#genres li a{
+    text-decoration: none;
+    color: white;
+}
+
+#genres li a:hover{
+    background-color: white;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+#follow ul{
+    list-style: none;
+}
+
+#follow li a{
+    text-decoration: none;
+    color: white;
+}
+
+#follow li a:hover{
+    background-color: white;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+#follow1 ul{
+    list-style: none;
+}
+
+#follow1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+#follow1 li a:hover{
+    background-color: white;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.error-message {
+    color: #ff6b6b;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
